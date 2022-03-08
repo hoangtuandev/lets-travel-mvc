@@ -1,0 +1,1162 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    font-family: verdana;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #287bbf;
+}
+
+:hover a {
+    text-decoration: none;
+}
+
+.list__tours ul {
+    display: flex;
+}
+
+.list__tours .tour__item img {
+    width: 266px;
+    height: 200px;
+}
+
+
+/* HEADER */
+
+
+/* HEADER NAV */
+
+.header {
+    padding: 0px;
+    padding-top: 10px;
+}
+
+.header .nav__logo {
+    text-align: center;
+}
+
+.header .nav__logo img {
+    width: 200px;
+    height: 120px;
+}
+
+.header .nav__search form {
+    position: relative;
+}
+
+.header .nav__search input {
+    padding: 20px;
+    margin-top: 25px;
+    border: 2px solid #287bbf;
+    border-radius: 30px;
+    height: 30px;
+    width: 500px;
+    outline: none;
+    color: navy;
+}
+
+.header .nav__search button {
+    height: 60px;
+    width: 60px;
+    border: 3px solid #287bbf;
+    background-color: #287bbf;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+.header .nav__search button i {
+    color: white;
+    font-size: 26px;
+}
+
+.header .nav__user {
+    display: flex;
+    justify-content: center;
+    color: #287bbf;
+}
+
+.header .nav__user .shopping svg {
+    color: #287bbf;
+    margin-bottom: 9px;
+}
+
+.header .nav__user .account {
+    position: relative;
+}
+
+.header .nav__user .account svg {
+    color: #287bbf;
+    margin-bottom: 5px;
+}
+
+.header .nav__user button {
+    border: 2px solid #287bbf;
+    border-radius: 35px;
+}
+
+.header .nav__user :hover button {
+    background-color: #287bbf;
+}
+
+.header .nav__user :hover button svg {
+    color: white;
+}
+
+.header .nav__user .account,
+.shopping {
+    display: flex;
+    text-align: center;
+    color: navy;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 13px;
+}
+
+.header .nav__user .account .sub__account {
+    position: absolute;
+    display: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: none;
+    text-align: left;
+}
+
+.header .nav__user .account .sub__account ul li {
+    font-weight: none;
+    font-size: 14px;
+    padding: 0px 5px;
+}
+
+.header .nav__user .account a:hover .sub__account {
+    display: block;
+}
+
+
+/* HEADER MENU */
+
+.header .header__menu {
+    background-color: #287bbf;
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+.header .header__menu ul {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.header .header__menu ul i {
+    font-size: 16px;
+}
+
+.header .header__menu li {
+    border-right: 1px solid white;
+}
+
+.header .header__menu ul li a {
+    padding: 15px 27px;
+    color: white;
+}
+
+.header .header__menu ul li a:hover {
+    font-size: 16px;
+    color: rgb(114, 216, 245);
+}
+
+.header .header__menu ul li .dropdown__tour {
+    display: none;
+}
+
+.header .header__menu ul li .dropdown__tour ul {
+    color: #0064b6;
+}
+
+.header .header__menu ul li .dropdown__tour ul li {
+    padding: 5px 20px;
+    margin: 0px 20px;
+}
+
+.header .header__menu ul li:hover div {
+    display: block;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    top: 179px;
+}
+
+.header .header__menu div[class="dropdown__tour"] ul li ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.header .header__menu div[class="dropdown__tour"] ul li ul a {
+    color: gray;
+    padding: 5px 00px;
+}
+
+.header .header__menu div[class="dropdown__tour"] ul li ul a:hover {
+    color: cornflowerblue;
+    font-size: 15px;
+}
+
+.header .header__menu ul li div[class="dropdown__tour"] ul li ul li {
+    padding: 3px 0px;
+    margin: 0px 1px;
+}
+
+
+/* HOME PAGE */
+
+.home__page {
+    padding: 0px;
+    margin: 0px;
+}
+
+.home__page {
+    position: relative;
+}
+
+.home__page .banner .banner__video {
+    background-color: rgb(240, 240, 240);
+}
+
+.home__page .banner .banner__video #myVideo {
+    position: relative;
+    top: 0px;
+    width: 1519px;
+}
+
+
+/* .home__page .banner {
+    width: 100%;
+    height: 583px;
+    background-image: url(../../../../Lets_Travel/public/image/banner9.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+} */
+
+.home__page .banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.home__page .banner .slide_banner {
+    display: flex;
+}
+
+.home__page .banner #text__book__1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.home__page .banner #text__book__2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home__page .banner form {
+    padding: 15px;
+    width: 600px;
+    height: 150px;
+    border: 0px solid black;
+    background-color: rgba(238, 238, 238, 0.5);
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.home__page .banner form input {
+    position: absolute;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.home__page .banner__book__tour {
+    padding: 20px 30px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.home__page .banner__book__tour p {
+    color: white;
+}
+
+.home__page .banner form select[id="input__book__1"] {
+    width: 410px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin: 5px 10px;
+    padding: 10px 10px;
+    color: gray;
+}
+
+.home__page .banner form input[id="input__book__2"] {
+    width: 410px;
+    top: 75px;
+}
+
+.home__page .banner form button {
+    width: 107px;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 455px;
+}
+
+
+/* HOME MAIN */
+
+.home__tour {
+    background-color: rgb(240, 240, 240);
+}
+
+.home__tour .title__tour {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.home__tour .title__tour span {
+    font-size: 25px;
+    color: #066cbe;
+    font-weight: 600;
+}
+
+.home__tour .title__tour svg {
+    color: rgb(219, 7, 7);
+    margin-right: 10px;
+}
+
+.home__tour hr {
+    border-top: 1px solid navy;
+    margin: 5px 0px;
+}
+
+.home__tour .title__tour img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.list__tours ul li {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    border: 0px solid black;
+    border-radius: 4px;
+}
+
+.home__tour .list__tours ul li:hover {
+    box-shadow: rgb(145, 145, 145) 10px 10px 30px -10px;
+}
+
+.home__tour .list__tours ul li div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 15px;
+}
+
+.home__tour .list__tours .tour__item {
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+}
+
+.home__tour .list__tours .tour__item .journey {
+    font-size: 17px;
+    font-weight: bold;
+    color: navy;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.home__tour .list__tours .tour__item img {
+    width: 360px;
+    height: 250px;
+}
+
+.home__tour .list__tours .tour__item button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    outline: none;
+    border: 0px solid black;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 90px;
+}
+
+.home__tour .list__tours .tour__item .price__tour {
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    font-size: 19px;
+    margin: 10px 0px;
+}
+
+.home__tour .btn__see__all__tour {
+    text-align: center;
+}
+
+.home__tour .btn__see__all__tour button {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 6px 15px;
+    color: rgb(255, 115, 0);
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 5px;
+    outline: none;
+}
+
+.home__tour .btn__see__all__tour button:hover {
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+
+/* TOUR FAVOURITE */
+
+.home__tour .tour__favourite .tour__favourite__top ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.home__tour .tour__favourite .tour__favourite__top ul li {
+    position: relative;
+    margin-right: 10px;
+}
+
+.home__tour .tour__favourite .tour__favourite__top img {
+    width: 270px;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.home__tour .tour__favourite .tour__favourite__bottom ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.home__tour .tour__favourite .tour__favourite__bottom ul li {
+    position: relative;
+    margin-right: 10px;
+}
+
+.home__tour .tour__favourite .tour__favourite__bottom img {
+    width: 214px;
+    height: 150px;
+    border-radius: 2px;
+}
+
+.home__tour .tour__favourite div[class="name__favourite"] {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    /* text-align: center; */
+}
+
+.home__tour .tour__favourite__bottom ul li .discover__now {
+    color: rgb(255, 115, 0);
+    font-size: 12px;
+}
+
+.home__tour .tour__favourite__top .passengers__favourite {
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+}
+
+
+/* CẢM HỨNG DU LỊCH */
+
+.home__tour .inspired__travel ul {
+    display: flex;
+}
+
+.home__tour .inspired__travel ul li {
+    text-align: justify;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__tour .inspired__travel ul li img {
+    border-radius: 2px;
+    width: 353px;
+    height: 245px;
+}
+
+.home__tour .inspired__travel ul li p {
+    color: #0064b6;
+}
+
+.home__tour .inspired__travel .title__inspired {
+    /* color: navy; */
+    font-size: 13.5px;
+    font-weight: bold;
+    padding: 10px 1px 0px 1px;
+}
+
+.home__tour .inspired__travel .introduce__inspired {
+    font-size: 13px;
+    color: gray;
+    padding: 0px 1px;
+}
+
+.home__tour .inspired__travel .source__inspired {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+    margin: 5px 10px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #287bbf;
+    color: white;
+}
+
+.footer .footer__top {
+    display: flex;
+}
+
+.footer .footer__top .footer__top__left {
+    margin: 20px 40px 20px 0px;
+}
+
+.footer .footer__top #footer__text__go {
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+    margin: 0px 0px;
+}
+
+.footer .footer__top #footer__text__travel {
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+}
+
+.footer .footer__top .footer__top__right .footer__account {
+    margin-left: 170px;
+}
+
+.footer .footer__top__right .footer__account button {
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    outline: none;
+    margin: 60px 10px 10px 10px;
+}
+
+.footer .footer__top__right .footer__account button[id="footer__btn__registration"] {
+    background-color: red;
+    padding: 8px 40px;
+}
+
+.footer .footer__top__right .footer__account button[id="footer__btn__login"] {
+    background-color: rgb(10, 196, 10);
+}
+
+.footer .footer__top .footer__social__network {
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.footer .footer__top .footer__social__network img {
+    border: 0px solid black;
+    border-radius: 30px;
+    background-color: rgb(240, 240, 240);
+    padding: 5px 5px;
+    margin: 10px 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.footer .footer__bottom {
+    margin-top: 30px;
+}
+
+.footer .footer__bottom ul li {
+    font-size: 15px;
+    color: rgb(215, 246, 255);
+    padding: 7px 0px;
+}
+
+.footer .footer__bottom p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.copyright {
+    background-color: navy;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+.copyright p {
+    padding: 7px 0px;
+    font-size: 14px;
+}
+
+.copyright p span {
+    font-weight: bold;
+}
+
+
+/* TOUR PAGE */
+
+.tour__page {
+    background-color: rgb(241, 241, 241);
+}
+
+.tour__page p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0064b6;
+    margin-top: 35px;
+}
+
+.tour__page .catalogy__tour {
+    color: black;
+    font-size: 18px;
+    font-weight: none;
+}
+
+.tour__page .catalogy__tour ul {
+    padding: 10px 30px 10px 10px;
+}
+
+.tour__page .catalogy__tour ul a:hover {
+    font-weight: bold;
+    color: #a2d5ff;
+}
+
+.tour__page .catalogy__tour ul li {
+    padding: 30px 0px 10px 0px;
+    border-bottom: 1px solid #0064b6;
+}
+
+.tour__page .list__tour__national {
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+.tour__page .list__tour__national ul {
+    display: flex;
+}
+
+.tour__page .list__tour__national ul a {
+    background-color: white;
+    padding: 0px 0px;
+    margin-right: 7px;
+}
+
+.tour__page .list__tour__national ul li {
+    padding: 0px 0px;
+    color: gray;
+    font-size: 13px;
+}
+
+.tour__page .list__tour__national ul li img {
+    width: 272px;
+    height: 200px;
+}
+
+.tour__page .list__tour__national ul li div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.tour__page .list__tour__national ul li div .journey {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #0064b6;
+}
+
+.tour__page .list__tour__national ul .discount__tour {
+    font-size: 13px;
+    color: gray;
+    margin-top: 7px;
+    text-decoration-line: line-through;
+    font-weight: bold;
+}
+
+.tour__page .list__tour__national ul .price__tour {
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.tour__page .list__tour__national ul span button {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: 0px solid white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+
+
+/* BLOG */
+
+.blog {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+.blog span {
+    text-align: justify;
+}
+
+.blog .blog__left__top p {
+    font-size: 15px;
+    color: black;
+}
+
+.blog p[class="blog__title"] {
+    color: #0064b6;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.blog .blog__left .blog__left__top ul li img {
+    width: 720px;
+    height: 450px;
+}
+
+.blog .blog__left__top ul .source__inspired {
+    margin: 0px 0px 0px 550px;
+    color: gray;
+    font-size: 15px;
+}
+
+.blog .blog__left__bottom ul {
+    display: flex;
+}
+
+.blog .blog__left__bottom ul a {
+    font-size: 13px;
+    color: black;
+}
+
+.blog .blog__left__bottom ul li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 13px;
+    text-align: justify;
+}
+
+.blog .blog__left__bottom ul li img {
+    width: 232px;
+    height: 150px;
+}
+
+.blog .blog__left__bottom ul li .title__inspired {
+    color: #0064b6;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.blog .blog__right p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.blog .blog__right ul {
+    margin: 0px 0px;
+}
+
+.blog .blog__right ul li {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+.blog .blog__right .blog__list img {
+    width: 150px;
+    height: 100px;
+}
+
+.blog .blog__right ul li span[class="blog__intro"] {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.blog .blog__right ul li span .title__inspired {
+    color: #0064b6;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.blog .blog__right ul li span .introduce__inspired {
+    font-size: 11px;
+}
+
+.blog .blog__right .blog__banner img {
+    width: 340px;
+    height: 500px;
+}
+
+
+/* LIBRARY PAGE */
+
+.library__page img {
+    border-radius: 1px;
+}
+
+.library__page .library__top__left .library__top__bottom ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.library__page .library__top .library__top__bottom video {
+    width: 260px;
+    height: 150px;
+}
+
+.library__page .library__top__left video {
+    width: 550px;
+    height: 300px;
+    outline: none;
+    border: 0px solid black;
+    margin: 20px 0px 0px 10px;
+}
+
+.library__page .image__favorite img {
+    width: 257px;
+    height: 155px;
+}
+
+.library__page .image__favorite ul {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.library__page .library__top__right .image__favorite ul li {
+    margin: 0px 8px 0px 0px;
+    position: relative;
+}
+
+.library__page .library__top__right {
+    margin-top: 10px;
+}
+
+.library__page .library__top__right p {
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.library__page .library__top__right .image__favorite i {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+.library__page .library__img {
+    margin-left: 15px;
+    text-align: center;
+}
+
+.library__page .library__img p {
+    font-size: 26px;
+    color: #0064b6;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+
+.library__page .library__img ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.library__page .library__img ul li {
+    margin: 0px 10px 0px 0px;
+}
+
+.library__page .library__img ul li img {
+    width: 262px;
+    height: 180px;
+}
+
+.library__page .library__video p {
+    font-size: 26px;
+    color: #0064b6;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+
+.library__page .library__video {
+    margin-left: 15px;
+    text-align: center;
+}
+
+.library__page button[class="view__all"] {
+    outline: none;
+    border: 2px solid orange;
+    background-color: white;
+    color: orange;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.library__page button[class="view__all"]:hover {
+    background-color: orange;
+    color: white;
+}
+
+.library__page .library__video ul {
+    display: flex;
+}
+
+.library__page .library__video ul li {
+    margin: 0px 10px 0px 0px;
+}
+
+.library__page .library__video ul li video {
+    width: 262px;
+    height: 150px;
+    outline: none;
+}
+
+
+/* CONTACT PAGE */
+
+.contact__page {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact__page p {
+    font-size: 15px;
+    text-align: justify;
+    color: rgb(114, 114, 114);
+}
+
+.contact__page #service__tour {
+    color: #287bbf;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact__page .solution__contact {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    color: rgb(105, 105, 105);
+}
+
+.contact__page .solution__contact svg {
+    border: 1px solid #287bbf;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 30px 10px 30px 0px;
+    border-style: dashed;
+    color: #287bbf;
+}
+
+.contact__page .solution__contact svg:hover {
+    background-color: #287bbf;
+    color: white;
+}
+
+.contact__page .contact__top__left #go__travel {
+    color: #287bbf;
+    font-weight: bold;
+}
+
+.contact__page .btn__top__right {
+    display: flex;
+    margin-top: 35px;
+}
+
+.contact__page .contact__top__right form {
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+}
+
+.contact__page .contact__top__right form input {
+    margin: 0px 10px 0px 0px;
+    width: 233px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #287bbf;
+    padding: 5px 10px;
+    color: gray;
+    font-size: 16px;
+}
+
+.contact__page .contact__top__right form textarea {
+    margin: 10px 0px;
+    border: 2px solid #287bbf;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.contact__page .contact__top__right form button {
+    border: 0px solid black;
+    border-radius: 4px;
+    background-color: #287bbf;
+    color: white;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* registration__login PAGE */
+
+.registration__login__page {
+    background-color: #d9eeff;
+}
+
+.registration__login__page .main__registration__login {
+    background-color: #d9eeff;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.registration__login__page .banner__registration__login img {
+    width: 450px;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 30px rgb(107, 107, 107);
+}
+
+.registration__login__page .form__registration__login form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    padding: 20px 50px 70px 50px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 40px rgb(138, 137, 137);
+    position: absolute;
+    top: 130px;
+    left: 530px;
+}
+
+.registration__login__page .form__registration__login form p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+}
+
+.registration__login__page .form__registration__login form a {
+    font-size: 13px;
+    margin: 7px 0px;
+}
+
+.registration__login__page .form__registration__login form input {
+    height: 40px;
+    width: 300px;
+    padding: 3px 10px;
+    margin: 10px 0px;
+    outline: none;
+    border: 0px solid black;
+    border-bottom: 1px solid #0064b6;
+    font-size: 15px;
+    font-weight: bold;
+    color: #777;
+}
+
+.registration__login__page .form__registration__login form input::placeholder {
+    font-weight: none;
+    opacity: 1;
+}
+
+.registration__login__page .form__registration__login form button[name="btn__top"] {
+    height: 35px;
+    width: 300px;
+    outline: none;
+    border: 2px solid rgb(241, 10, 10);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: rgb(241, 10, 10);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.registration__login__page .form__registration__login button[name="btn__bottom"] {
+    height: 30px;
+    width: 120px;
+    outline: none;
+    border: 2px solid #0064b6;
+    color: #0064b6;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 90px;
+    position: absolute;
+    top: 410px;
+    left: 580px;
+}
